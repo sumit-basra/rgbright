@@ -4,6 +4,9 @@ Full RGB-enabled wifi-controlled desk lamp
 This project was designed and built to use as a desk/side table lamp as well as a practical light when filming or taking photos.
 
 All of the parts were designed in Fusion 360 and then 3D printed on the Prusa MK3S. The bottom cover and the main housing were printed in black PLA while the transparent top cover was printed in PETG so it had a higher tolerance to heat, in case the LEDs got warm at all.
+  base_cover.stl - PLA
+  base.stl - PLA
+  cover.stl - PETG
 
 For the electronics, an ESP32 was used as the controller for the LED lights, which were Neopixels from Adafruit. Using the Blynk API, the ESP32 was able to communicate with an iPhone in order to control the lamp's on/off status, the color of the LEDs, and the brightness of the LEDs.
 
